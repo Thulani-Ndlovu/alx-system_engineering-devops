@@ -1,2 +1,2 @@
-sudo apt install mplayer
+#!/bin/bash
 mplayer StarWars IV.mp4
