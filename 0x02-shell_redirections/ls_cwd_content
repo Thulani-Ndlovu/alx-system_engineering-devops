@@ -1,0 +1,15 @@
+total 88
+drwxr-xr-x  14 thulanindlovu  staff  448 Feb 13 20:13 .
+drwxr-xr-x   7 thulanindlovu  staff  224 Feb 13 13:33 ..
+-rwxr--r--   1 thulanindlovu  staff   32 Feb 13 19:46 0-hello_world
+-rwxr--r--   1 thulanindlovu  staff   28 Feb 13 19:48 1-confused_smiley
+-rwxr--r--   1 thulanindlovu  staff   28 Feb 13 19:52 2-hellofile
+-rwxr--r--   1 thulanindlovu  staff   39 Feb 13 19:54 3-twofiles
+-rwxr--r--   1 thulanindlovu  staff   35 Feb 13 19:58 4-lastlines
+-rwxr--r--   1 thulanindlovu  staff   35 Feb 13 19:59 5-firstlines
+-rwxr--r--   1 thulanindlovu  staff   40 Feb 13 20:02 6-third_line
+-rwxr--r--   1 thulanindlovu  staff   99 Feb 13 20:07 7-file
+-rwxr--r--   1 thulanindlovu  staff   36 Feb 13 20:13 8-cwd_state
+-rw-r--r--   1 thulanindlovu  staff   43 Feb 13 13:34 README.md
+-rw-r--r--   1 thulanindlovu  staff   12 Feb 13 20:07 \*\\'"Best School"\'\\*$\?\*\*\*\*\*:)
+-rw-r--r--   1 thulanindlovu  staff    0 Feb 13 20:13 ls_cwd_content
