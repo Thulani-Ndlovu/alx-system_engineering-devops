@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Displays the Scripts' own PID
+
+PID=$$
+
+echo "$PID"
