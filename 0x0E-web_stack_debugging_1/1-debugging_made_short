@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#Refined Bash script that fixes what's preventing Nginx installation
+ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+service nginx restart
+kill "$(pgrep 'nginx' | head -1)"
