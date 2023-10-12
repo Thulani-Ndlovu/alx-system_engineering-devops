@@ -1,0 +1,27 @@
+1. What happens when you type "https://www.google.com" in your Browser and Press Enter?
+
+- The following sequences are touched:
+
+1.1. DNS request
+- The browser first converts the given URL to an IP address to where the Google server is located. This request is done by the Domain Name System.
+
+1.2. TCP/IP
+- The TCP/IP creates a communication channel between the Google server and your computer so that data can be transfered.
+
+1.3. Firewall
+- If there is a firewall in a computer, it will prevent your computer from opening files that might be harmful.
+
+1.4. HTTPS/SSL
+- HyperText Transfer Protocol/ Secure Socket layer then encrypts the communication channel between your computer and the Google server, so that no information can be phished by anyone who might be listening to the communication channel.
+
+1.5. Load-balancer
+- With a lot of Google requests made by people in the world at the same time, a load balancer is there to distribute the user requests across many servers to make sure that a single server is not overused.
+
+1.6. Web server
+- When a web server receives a request it will process it and retrieve the google homepage in case of static web search
+
+1.7. Application server
+- If a user is requesting dynamic information, information that is constantly changing, it will have to interact with the database to get the information in real time.
+
+1.8. Database
+- A database will communicate with the Application server to get the user the real data.
