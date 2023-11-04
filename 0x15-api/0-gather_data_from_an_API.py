@@ -12,7 +12,7 @@ if __name__ == '__main__':
     todos = requests.get(apiURL +
                          "todos", params={"userId: sys.argv[1]"}).json()
     Completed = [t.get('title') for t in todos if t.get('completed') is True]
-    print("Employee {} is done with tasks({}/{})".format(
+    print("Employee {} is done with tasks({}/{}):".format(
         User.get("name"), len(Completed), len(todos)
     ))
     [print("\t {}".format(i)) for i in Completed]
