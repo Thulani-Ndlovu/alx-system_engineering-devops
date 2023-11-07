@@ -8,15 +8,12 @@ import requests
 
 def top_ten(subreddit):
     '''Prints first 10 titles of hot posts in subreddit'''
-    apiURL = "https://www.reddit.com/r/{}/hot/.json".format(subreddit)
+    apiURL = "https://www.reddit.com/r/{}/hot.json?limit=10".format(subreddit)
     headers = {
         "User-Agent": "Thulani_Ndlovu"
     }
-    params = {
-        "limit": 10
-    }
-    res = requests.get(apiURL, headers=headers, params=params,
-                       allow_redirects=False)
+
+    res = requests.get(apiURL, headers=headers, allow_redirects=False)
     if res.status_code == 404:
         print("None")
         return
