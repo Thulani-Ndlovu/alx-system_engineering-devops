@@ -7,7 +7,7 @@
 import requests
 
 
-def recurse(subreddit, hot_list=[], count=0, after=None):
+def recurse(subreddit, hot_list=[], count=0, after=""):
     '''recursively query reddit api'''
     apiURL = "https://www.reddit.com/r/{}/hot.json".format(subreddit)
     headers = {
